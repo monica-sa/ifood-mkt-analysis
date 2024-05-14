@@ -22,7 +22,7 @@ As a marketing analyst at our company, you've been informed by the Chief Marketi
 ## Data Source
 - **CSV File**: [ifood_df.csv](./dags/resources/data/source/ifood_df.csv) (`dags/resources/data/source/ifood_df.csv`)
 
-![Dictionary](images/dictionary.png "Data Dictionary")
+<img src="images/dictionary.png" height="400" alt="Dictionary">
 
 ## Workflow Description
 
@@ -52,15 +52,10 @@ Further exploratory data analysis (EDA) is done to draw insights from processed 
 ### 3. Visualization & Reporting
 Data visualizations and reports are generated using PowerBI to present findings and insights effectively.
 
-![Customer Report](images/customer_report.png "Customer Report")
-
-![Channel Report](images/channel_report.png "Channel Report")
-
-![Orders Report](images/orders_report.png "Orders Report")
-
-![Performance Report](images/performance_report.png "Performance Report")
-
-![RFM Report](images/rfm_segment_report.png "RFM Report")
+<img src="images/customer_report.png" height="200" alt="Customer Report">
+<img src="images/channel_report.png" height="200" alt="Channel Report">
+<img src="images/orders_report.png" height="200" alt="Orders Report">
+<img src="images/performance_report.png" height="200" alt="Performance Report">
 
 ### 4. Presentation
 Final findings and recommendations are compiled into a presentation:
@@ -85,7 +80,8 @@ docker compose up
 - Airflow: http://localhost:8080/login/ (Username: airflow, Password: airflow)
 - Postgres: Access through pgAdmin (Username: airflow, Password: airflow)
 
-![Postgres](images/postgres_acess.png "Postgres Access")
+<img src="images/postgres_acess.png" height="200" alt="Postgres Access">
+
 
 ## Contributing
 If you would like to contribute to the project, please follow these steps:

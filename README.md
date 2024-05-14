@@ -78,6 +78,7 @@ Final findings and recommendations are compiled into a presentation:
 Run the following command within the project directory to start all services using Docker:
 ```bash
 docker compose up
+```
 
 #### Accessing Services
 - Airflow: http://localhost:8080/login/ (Username: airflow, Password: airflow)

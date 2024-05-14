@@ -20,7 +20,7 @@ As a marketing analyst at our company, you've been informed by the Chief Marketi
 - **Visualization Tools**: For creating insightful data visualizations (PowerBI used here).
 
 ## Data Source
-- **CSV File**: `dags/resources/data/source/ifood_df.csv`
+- **CSV File**: [ifood_df.csv](./dags/resources/data/source/ifood_df.csv) (`dags/resources/data/source/ifood_df.csv`)
 
 ![Dictionary](images/dictionary.png "Data Dictionary")
 
@@ -35,7 +35,7 @@ The project's architecture involves several components which are detailed in the
 
 #### Data Analysis
 Initial data exploration is conducted using Jupyter Notebooks:
-- **Notebook**: `ifood-mkt-analysis/Notebooks/data_analysis.ipynb`
+- **Notebook**: [data_analysis.ipynb](./Notebooks/data_analysis.ipynb) (`Notebooks/data_analysis.ipynb`)
 
 #### ETL Process
 An ETL pipeline built with Airflow orchestrates the data transformation and loading:
@@ -47,7 +47,7 @@ An ETL pipeline built with Airflow orchestrates the data transformation and load
 
 #### Data Insights
 Further exploratory data analysis (EDA) is done to draw insights from processed data:
-- **Notebook**: `ifood-mkt-analysis/Notebooks/eda.ipynb`
+- **Notebook**: [eda.ipynb](./Notebooks/eda.ipynb) (`Notebooks/eda.ipynb`) 
 
 ### 3. Visualization & Reporting
 Data visualizations and reports are generated using PowerBI to present findings and insights effectively.
@@ -64,7 +64,8 @@ Data visualizations and reports are generated using PowerBI to present findings 
 
 ### 4. Presentation
 Final findings and recommendations are compiled into a presentation:
-- **Presentation File**: `ifood_presentation.pdf`
+- **Presentation File**: [View Presentation](./ifood_presentation.pdf)
+
 
 ## Setup Instructions
 
